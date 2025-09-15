@@ -17,17 +17,6 @@ VitalGuard is an innovative smart helmet prototype designed specifically for fir
 - **Long Battery Life**: 4000mAh rechargeable battery system with fast charging
 - **Robust Design**: Built for extreme firefighting conditions
 
-## 🎓 Academic Context
-
-**Institution**: School of Engineering, Computer Studies and Architecture  
-**Program**: Bachelor of Science in Information Technology  
-**Research Team**:
-- LIBRE, KENT LOWELL M.
-- PAGTALUNAN, EMJAY
-- VICENTINO, NATHANIEL
-
-**Adviser**: ENGR. DAVID MUELLER  
-**Date**: December 2025
 
 ## 🔧 Hardware Components
 
@@ -260,18 +249,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Kabankalan City Fire Station** for collaboration and testing support
 - **Faculty of Information Technology** for academic guidance
-- **ENGR. DAVID MUELLER** for project supervision
 - **Open-source community** for libraries and tools
-
-## 📞 Contact
-
-**Research Team**:
-- Kent Lowell M. Libre - [email@example.com]
-- Emjay Pagtalunan - [email@example.com]
-- Nathaniel Vicentino - [email@example.com]
-
-**Project Supervisor**:
-- Engr. David Mueller - [supervisor@example.com]
 
 **Institution**: School of Engineering, Computer Studies and Architecture
 
