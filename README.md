@@ -65,27 +65,7 @@ VitalGuard is an innovative smart helmet prototype designed specifically for fir
   - Short circuit protection
   - Extends battery lifespan
 
-## 🏗️ System Architecture
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Sensor Layer  │───▶│ Processing Unit │───▶│ Communication   │
-│                 │    │                 │    │     Layer       │
-│ • MAX30102      │    │   ESP32-WROOM   │    │ • WiFi          │
-│ • MLX90614      │    │      32         │    │ • Bluetooth     │
-│ • MPU-6050      │    │                 │    │                 │
-│ • MQ-7          │    │                 │    │                 │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         ▲                       ▲                       │
-         │                       │                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  Power System   │    │   Data Storage  │    │ Command Center  │
-│                 │    │                 │    │   Dashboard     │
-│ • 18650 Battery │    │ • Local Buffer  │    │                 │
-│ • BMS Circuit   │    │ • SD Card       │    │ • Real-time     │
-│ • Type-C Charger│    │   (Optional)    │    │   Monitoring    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
 
 ## 🎯 Research Objectives
 
@@ -173,36 +153,7 @@ void loop() {
 }
 ```
 
-## 📁 Repository Structure
 
-```
-vitalguard-smart-helmet/
-├── src/
-│   ├── main.cpp
-│   ├── VitalGuard.h
-│   ├── VitalGuard.cpp
-│   ├── SensorManager.cpp
-│   ├── CommunicationManager.cpp
-│   └── PowerManager.cpp
-├── hardware/
-│   ├── schematics/
-│   ├── pcb_design/
-│   └── 3d_models/
-├── docs/
-│   ├── user_manual.md
-│   ├── technical_specs.md
-│   └── research_paper.pdf
-├── examples/
-│   ├── basic_monitoring/
-│   ├── wireless_communication/
-│   └── sensor_calibration/
-├── tests/
-│   ├── unit_tests/
-│   └── integration_tests/
-├── tools/
-│   └── calibration_scripts/
-└── README.md
-```
 
 ## 🔍 Research Methodology
 
