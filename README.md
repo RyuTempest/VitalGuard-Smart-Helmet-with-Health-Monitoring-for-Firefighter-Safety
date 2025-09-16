@@ -282,6 +282,12 @@ cp get_latest_data.php /xampp/htdocs/vitalguard/
 
 #### 4. Hardware Wiring
 
+**Circuit Diagram:**
+
+![VitalGuard Circuit Diagram](hardware/firmware/VitalGuard/schematics/Circuit.png)
+
+**Pin Configuration:**
+
 | Component | ESP32 Pin | Notes |
 |-----------|-----------|-------|
 | **MAX30102** | SDA: 21, SCL: 22 | I2C Address: 0x57 |
